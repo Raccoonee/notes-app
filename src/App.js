@@ -10,17 +10,17 @@ const App = () => {
     {
       id: nanoid(),
       text: "Hello, Welcome to Notes!",
-      date: "1/23/2022",
+      date: "",
     },
     {
       id: nanoid(),
       text: "Delete Notes by Clicking The Trash Icon.",
-      date: "1/24/2022",
+      date: "",
     },
     {
       id: nanoid(),
       text: "Notes Save Locally.",
-      date: "1/24/2022",
+      date: "",
     },
   ]);
   const [searchText, setSearchText] = useState("");
