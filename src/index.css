@@ -102,11 +102,24 @@ textarea:focus {
 
 .bottom-header {
   background-color: #ededed;
-  border: none;
-  
-  padding: 5px 10px 5px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 700px 5px 700px;
   bottom: 0px;
-  width: auto;
-  margin-top: 22%;
-
+  margin-top: 493px;
+  color: black;
+  font-weight: bold;
+}
+h2 {
+  background-color: #ededed;
+  border: none;
+  border-radius: 15px;
+  padding: 5px 10px 5px 10px;
+}
+p {
+  background-color: #ededed;
+  border: none;
+  border-radius: 15px;
+  padding: 5px 10px 5px 10px;
 }
