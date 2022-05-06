@@ -5,7 +5,7 @@ const BottomHeader = () => {
       <p>
         <a href="https://github.com/Raccoonee">GitHub</a>
       </p>
-      <h2>Created by Raccoonee🦝</h2>
+      <h2>Created by Raccoonee</h2>
       <p>
         <a href="https://www.youtube.com/channel/UCIwswzNBnEwyWFRNBZ_lbsw">
           Youtube

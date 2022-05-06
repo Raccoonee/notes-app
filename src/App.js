@@ -30,14 +30,21 @@ const App = () => {
   useEffect(() => {
     const savedNotes = JSON.parse(localStorage.getItem("react-note-app-data"));
 
-    if(savedNotes) {
-      setNotes(savedNotes)
+    if (savedNotes) {
+      setNotes(savedNotes);
     }
   }, []);
 
   useEffect(() => {
     localStorage.setItem("react-note-app-data", JSON.stringify(notes));
   }, [notes]);
+
+  const editNote = (id, text) => {
+    const existingNote = notes.filter((note) => note.id !== id)
+    setNotes(existingNote);
+    
+
+  };
 
   const addNote = (text) => {
     const date = new Date();
@@ -53,6 +60,7 @@ const App = () => {
   const deleteNote = (id) => {
     const newNotes = notes.filter((note) => note.id !== id);
     setNotes(newNotes);
+
   };
 
   return (
@@ -66,6 +74,7 @@ const App = () => {
           )}
           handleAddNote={addNote}
           handleDeleteNote={deleteNote}
+          handleEditNote={editNote}
         />
       </div>
       <BottomHeader />

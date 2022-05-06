@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const AddNote = ({ handleAddNote, handleEditNote }) => {
+const EditNote = ({ handleAddNote, text }) => {
   const [noteText, setNoteText] = useState("");
   const characterLimit = 200;
 
@@ -20,7 +20,7 @@ const AddNote = ({ handleAddNote, handleEditNote }) => {
       <textarea
         rows="8"
         cols="10"
-        placeholder="Type to add note..."
+        placeholder={text}
         value={noteText}
         onChange={handleChange}
       ></textarea>
@@ -34,4 +34,4 @@ const AddNote = ({ handleAddNote, handleEditNote }) => {
   );
 };
 
-export default AddNote;
+export default EditNote;
