@@ -77,7 +77,7 @@ const App = () => {
           handleEditNote={editNote}
         />
       </div>
-      <BottomHeader />
+      <BottomHeader darkMode={darkMode} />
     </div>
   );
 };

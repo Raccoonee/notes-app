@@ -105,7 +105,7 @@ textarea:focus {
 }
 
 .bottom-header {
-  background-color: #ededed;
+  
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -116,13 +116,14 @@ textarea:focus {
   font-weight: bold;
 }
 h2 {
-  background-color: #ededed;
+  background-color: #282828;
+  color: white;
   border: none;
   border-radius: 15px;
   padding: 5px 10px 5px 10px;
 }
 p {
-  background-color: #ededed;
+  
   border: none;
   border-radius: 15px;
   padding: 5px 10px 5px 10px;
@@ -143,3 +144,16 @@ a:active {
   background-color: #fc5858;
 }
 
+body::-webkit-scrollbar {
+  width: 12px;               
+}
+
+body::-webkit-scrollbar-track {
+  background: #282828;        
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: gray;    
+  border-radius: 20px;      
+  border: 3px solid #282828; 
+}

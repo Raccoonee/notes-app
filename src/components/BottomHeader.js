@@ -1,6 +1,6 @@
-const BottomHeader = () => {
+const BottomHeader = ({darkMode}) => {
   return (
-    <div className="bottom-header">
+    <div className={`${darkMode && "dark-mode"} bottom-header`}>
       
       <p>
         <a href="https://github.com/Raccoonee">GitHub</a>
