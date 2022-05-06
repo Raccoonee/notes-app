@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import Note from "./Note";
 import AddNote from "./AddNote";
 import EditNote from "./EditNote";

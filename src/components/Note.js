@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { MdDeleteForever, MdModeEditOutline } from "react-icons/md";
 
 const Note = ({ id, text, date, handleDeleteNote, handleEditNote }) => {
