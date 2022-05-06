@@ -7,7 +7,7 @@ const BottomHeader = ({darkMode}) => {
       </p>
       <h2>Created by Raccoonee</h2>
       <p>
-        <a href="https://www.youtube.com/channel/UCIwswzNBnEwyWFRNBZ_lbsw">
+        <a href="https://www.youtube.com">
           Youtube
         </a>
       </p>
